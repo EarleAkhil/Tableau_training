@@ -1,0 +1,56 @@
+So here's a document that specifies the business challenge.
+
+Let's have a look.
+
+Uh, it's end of financial year, and that means.
+
+It means it's time for annual bonuses.
+
+The store, which we're looking at, the store, operates in three regions, and only the top performing
+
+employee in each region qualifies for a bonus.
+
+Find out which three employees are eligible to get a bonus to get bonuses for this year.
+
+Employees are measured on the total number or total value of sales, and the data, as we discussed,
+
+
+
+Step1: Lets check how many sales are done by each representative.
+Analysis: Representative with most units and representative with less units
+Richard is the representative who sold 396(most) units 
+Thomas is the representative who sold 89(less) units
+
+
+Step2 : From the analysis we can say that central region has most sales and west region has less sales
+but east reason has best represntative and west has least valued representative. Certainly, consistency
+in the sales by the representative can be seen in the central region.
+
+We can also saw best performing representative in each region
+Alex best performing representative for the central region
+Richard - best performing representative for the East region
+James- best performing representative for the West region
+
+Step3: We need to find the dollar value.
+
+total dollar value of sales: the Unit price * Units
+total Sales: Unit price* Units	
+After calculating total sales the above places were occupied by different representatives.
+Mathew is the best performing representative in the central region with the total sales of 3,109 
+Susan is the best performing representative in the East region with the total sales of  3,102 
+James- is  best performing representative in the West region with the total sales of 1284
+
+Hence we completed our business challenge.
+Mathew is the best performing representative who receivees annual bones in the central region
+Similarly,Susan for the East and Mathew for the west region.
+
+
+When we are addding colors to the regions we can cleary see the barchart that different colours represents different regions
+like blue color represents Central region where Orange and Purple represents East and West Region respectively.
+
+
+Now we are adding labels and formatting the bar_chart.
+1. now we are adding labels to the field total_sales so that we can see the total sales made by each representative.
+2. Now we can add region and representative data fields to the labels.
+
+Now we are going to format the bar_chart and that would be our last step.
