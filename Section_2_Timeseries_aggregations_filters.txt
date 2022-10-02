@@ -1,0 +1,96 @@
+Now we are using Year(period) which is data type of date in the column section and then unemployed data field in the
+row section.
+
+Analysis question: Here we can see that the data in the unemployed section got summed up for the entire year 2007 irrespective age,gender.
+Hence we can see that 
+1. In 2005, the number of unemployed is 18,621,000.
+2. In 2006, enmployed is 15,523,000
+So, We can see that highest unemployed is in year 2010 and  unemployed people are 78,130,000 and 
+So, We can see that lowest unemployed is in year 2015 and  unemployed people are 5,849,000
+
+Aggregation means summing up
+
+What is granularity?
+The more detailed, the higher the granularity.(Hence the more rows of data you will have)
+The less detailed, the lower the granularity.(Vice versa, the less number of rows of data you will have).
+
+Now, we are working with time series
+What is dimension,measure and category in tableau for time series
+
+
+Tableau treats any field containing numeric (quantitative) information as a measure.
+eg: sales is a measure and it is also dependent variable.
+
+a dimension is a field that can be considered an independent variable. 
+By default, Tableau treats any field containing qualitative, categorical information as a dimension.
+
+What is aggregation and granularity.
+
+Here month(of period) shows granularity because it sums up all the data for the months
+
+measures which are quantitative fields will specify the aggregation
+while dimensions  which are qualitative or categorical will specify the granularity. 
+
+Data preparation is the process of getting well formatted data into a single table or multiple related tables so it can be analyzed in Tableau.
+data cleanliness, such correct data types and correct data values.
+
+color coded: blue fields are discrete and green fields are continuous).
+
+Aggregation
+
+refers to how multiple data values are brought together into a single value, 
+such as counting all the Google searches for Pumpkin Spice or 
+taking the average of all the temperature readings around Seattle on a given day.
+
+By default, measures in Tableau are always aggregated. 
+The default aggregation is SUM. You can change the aggregation to options like Average, Median, Count Distinct, Minimum, etc.
+
+Granualarity
+refers to how detailed the data is. What does a row or record in the data set represent? 
+A person with malaria? A provinces' total cases of malaria for the month? That's the granularity.
+
+Knowing the granularity of the data is crucial to working with level of detail (LOD) expressions.
+
+now: we are creating an area chart.
+
+Data analysis: Here in the chart we can see the unemployment in U.S in between 2005 and 2015.
+So, it is the median of the unemployment and granularity level is gender plus age.
+So that it means for every month there is several age groups, seven age groups, times two genders.
+so, for every month there will be 14 observations
+age 
+male
+female
+month - jan
+age 16-19
+20-24
+25-34
+35-44
+45-54
+55-64
+65 and above
+
+Highlighting concept in tableau.
+Now we are making our chart back to line chart.
+Now we are taking age field and drag in colour
+
+So, we can check that in the area chart, we can see the pop-up for instance 20 to 24 years age the unemployement rate is 9.6M
+So, from the area chart, we can do our analysis that
+for age 16 -19 , the hightest unemployment is in the 2010,period of april and sum is 414,000 and  the lowest was  in january.2005 129,000
+for age 20 -24 , the hightest unemployment is in the april 2010,period of april and sum is 967,000 and  the lowest was in january 265,000
+for age 25 -34 , the hightest unemployment is in the period of 2010,april and sum is 1.5 M and  the lowest was in january,2005 336,000
+for age 35 -44 , the hightest unemployment is in the period of 2010,april and sum is 1.3 M and  the lowest was in january,2005 381,000
+for age 45 -54 , the hightest unemployment is in the period of 2010,april and sum is 1.3 M and  the lowest was in january,2005 364,000
+for age 55 -64 , the hightest unemployment is in the period of 2010,nov and sum is 1.5 M and  the lowest was in january,2005 364,000
+for age 65 and above , the hightest unemployment is in the period of september,2011 and sum is 940,000 and  the lowest was in january,2005 115,000
+
+Now, to make the chart to look more pretty, we are adding the labels.
+Today, I had learned about the area chart and highlighting concept.
+
+Today, we are going to discuss about filters topic which is very important lecture today.
+
+As we can see in the area chart unemployment data, age but the field gender is missing. So, want to add this to our chart.
+To do this , we will add gender to our filter tab.
+
+Now we are going to learn what is quick filter.It is a helpful feature which is used to quickly analyze the data.
+
+
