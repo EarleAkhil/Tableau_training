@@ -1,0 +1,61 @@
+Joining data in tableau.
+
+Tableau has a very convenient functionality that allows you to join two files.
+We are creating an inner join between the two tables ListOfOrders and OrderBreakdown
+Creating a Map, working with Hierarchies
+Now we are going to work with geographical data in tableau.
+So, in the ListofOrders sections, the dimensions City,Country,State are identified as the elements of  geographical data.
+
+In the context of data, hierarchies are a logical arrangement of relevant unique attributes in a data set.
+ Hierarchies arrange data fields in a level, for instance, a Geography hierarchy would have a region, country, state, city, area levels.
+ Or, a Time hierarchy has a year, month, week, day as its levels.
+
+So, We had created a natural geography hierarchy.
+1.Country
+2.State
+3.City
+
+We can see, the level of granularity of the state.
+First thing, we want to know, how many sales are done in each one of these regions.
+
+Now the challenge is that, we going to calculate the profit margin of these regions.
+
+Profit margin forumual = Revenue-cost/revenue
+                       = Sum(profit)/sum(sales)
+Now we had profitmargin which is a calculated field
+This Profitmargin field is dertermined as the aggregated Profit margin.
+
+Now we are going to learn about the scaterplot and also multiple filters apply to the worksheets.
+We are going to learn how to apply same filter to multiple worksheets.
+
+We want to make our dashboard more interactive for instance, if the user wants to drill into a certain state like
+france for instance,he can simply click on this  bubble and then the customer scatterplot will atomatically adjusted to reflect
+to reflect only the customers that live in that state.
+In tableau there are two types of actions.
+1. Filtering
+2. highlighting
+
+So, we can click use as filter option in the filter menu
+
+Now the goal today is we want instead of filtering of filtering this scatterplot, we actually want to see the
+customers highlighted.So, we want all of the dots to remain, but only the relevant dots to stand out so that
+we know how they compare to the rest of the customers on the scatterplot.
+
+The main difference between filtering and higlighting.
+Filtering actually filters your data set and therefore allows you to reconstruct the scatterplot.
+So, when I have filtering and I select this state eg uk, what happends in the background is tableau selects 
+all the rows of the data that are relevant to this state of uk,which will the  uk it only leaves them
+and then removes all the rest of the rows in our dataset that have nothing to do with the uk and so then the scatter
+plot is only working with the uk rows and it is able to create a scatterplot based on that information.
+
+Hightlighting is that data set is not actually filtered so that process is not running in the background
+you are not deleting any or temporary deleting any rows from the dataset, which you are asking the dashboard
+to do is plot everything and at the same time highlighting the customers that are relevant or related to UK.
+
+
+Because some of the our customres are from different regions eg uk,france,,germany and so on.So, one customer in this
+particular data set is not attached to one particular state or even country.We can see the customers are from
+different states,cities and even countries.
+ 
+
+
